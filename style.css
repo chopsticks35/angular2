@@ -1,3 +1,8 @@
 p.hoverPar:hover {
     color: pink;
 }
+
+.linker {
+    color: red;
+    text-decoration: none;
+}
