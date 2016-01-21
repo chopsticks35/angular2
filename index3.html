@@ -1,14 +1,24 @@
 <!DOCTYPE html>
-<html ng-app="thirdPage">
-    <head>
-        <title></title>
-        <link rel="stylesheet" href="style3.css">
-         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
-        <script type="text/javascript" src="script3.js"></script>
-    </head>
-    <body ng-controller="myController3">
-        <button ng-onclick="bigButton">CLICK THIS HUGE BUTTON</button>
-        
-    </body>
-    
-</html>
+ <html ng-app="thirdPage">
+ <head>
+     <title>Angular</title>
+     <link rel="stylesheet" type="text/css" href="part3.css">
+     
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+     
+     <script type="text/javascript" src="part3.js"></script>
+     
+ </head>
+ <body ng-controller="thirdPage-controller">
+     
+     <div class="container">
+         <button class="big-button" ng-hide="hidden[1]" ng-click="triggerPopUp()">giant button</button>
+     
+     </div> 
+     <div class="pop-up" ng-hide="hidden[0]">
+        Popping up!
+         <button ng-click="closePopUp()">close me</button>
+     </div>
+  
+ </body>
+ </html> 

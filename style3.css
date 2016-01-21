@@ -1,0 +1,19 @@
+.container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.big-button {
+    position: relative;
+    height: 33%;
+    width: 33%;
+    margin: 25% 25% 25% 25%;
+}
+
+.pop-up {
+    position: fixed;
+    height: 50%;
+    width: 50%;
+    margin: 25% 25% 25% 25%;
+}
